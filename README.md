@@ -38,7 +38,7 @@ roster= {}
 GRADES= []
 
 
-
+roster = {9=>["hello", "uno"], 7=>["yoyo", "ati"], 12=>["Ohhh", "Ahhh"]}
 
 # Domain Model for a School
 
