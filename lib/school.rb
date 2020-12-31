@@ -14,7 +14,6 @@ class School
     @roster
   end
 
-  GRADES= [ ]
   def add_student(student_name, grade)
     if @roster == {}
       @roster[grade] = []
