@@ -27,7 +27,7 @@ class School
   end
 
   def sort
-    @roster.each do |grade, array|
+    @roster.collect do |grade, array|
       array.sort
     end
   end
