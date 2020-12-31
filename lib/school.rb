@@ -3,11 +3,7 @@ require "pry"
 class School
   def initialize(name)
     @name= name
-    @roster= {
-      :9 => ["fdfdf", "dfdfdf"],
-      :10 => ["dfddf", "dfdfdf"],
-  #    :11 => ["dfdf", "dfdfdf"]
-    }
+    @roster= {}
   end
 
   def roster
