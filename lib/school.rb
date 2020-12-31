@@ -30,8 +30,8 @@ class School
     sorted_roster={}
     sorted_grades=[]
     sorted_names=[]
-    @roster.each do |grade, array|
-      
+    @roster.collect do |grade, array|
+
       array.sort
     end
   end
