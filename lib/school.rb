@@ -28,8 +28,8 @@ class School
 
   def sort
     sorted_roster={}
-    sorted_grades=[]
-    sorted_names=[]
+    sorted_grades= @roster.keys.sort
+    sorted_names= @roster.values.sort
     @roster.collect do |grade, array|
 
       array.sort
